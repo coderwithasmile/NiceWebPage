@@ -1,0 +1,322 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e6cd89;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(#d4f395dc, #f3c090d7)
+    
+}
+
+#wrapper {
+    margin: auto;
+    width: 80%;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333;
+    background-color: #fff;
+    min-height: 100vh;
+    padding-bottom: 20px;
+
+}
+
+h1 {
+    background-color: rgb(231, 181, 205);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 60px;
+    padding-top: 5px;
+    position: relative;
+    background-image: url(../images/bookpages.jpg);
+    background-position: top right;
+	transform: rotate(3.142rad);
+	transition: transform 2.0s;
+}
+
+h3{
+    text-align: center;
+
+}
+
+table{
+    border: 2px #cc8a33;
+border-collapse: collapse;}
+th,td{border: 2px solid #cc9c33ce;
+padding: 0.5em;}
+td{text-align: center;}
+.text{text-align: left;}
+tr:nth-of-type(odd){background-color: #eecc84;
+margin-bottom: 5em;
+margin-top: 5em;
+padding-bottom: 5em;
+padding-top: 5em;
+font-size: 85%;}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #db954e;
+  }
+
+#booklounge {
+    background-image: url(bookpages.jpg);
+    background-position: top right;
+}
+
+.hero {
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 2px;
+}
+
+#homehero {
+   margin-left:  30px; 
+    background-image: url(../images/bookpages.jpg);
+    float: right;
+    height: 300px;
+    background-position: no-repeat; 
+    background-size: 100% 100%;
+    flex-grow: 2;
+
+   
+}
+
+
+#autobiographyhero {
+    background-image: url(../images/autobiography.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+    background-position: no-repeat;
+flex-grow: 2;
+}
+
+#cookinghero {
+    background-image: url(../images/cooking.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+    background-position: no-repeat;
+    flex-grow: 2;
+}
+
+#fantasieshero {
+    background-image: url(../images/fantasy.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+    background-position: no-repeat;
+    flex-grow: 2;
+}
+
+#mysterieshero {
+    background-image: url(../images/Mystery.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+    background-position: no-repeat;
+    flex-grow: 2;
+}
+
+#romancehero {
+    height: 300px;
+    background-image: url(../images/Romance.jpg);
+    background-size: 100% 100%;
+    background-position: no-repeat;
+    flex-grow: 2;
+}
+
+#selfhelphero {
+    background-image: url(../images/selfhelp.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+    background-position: no-repeat;
+    flex-grow: 2;
+}
+
+
+nav {
+    font-family: Comic Sans, Times New Roman, sherif;
+    text-align: center;
+    text-shadow: 3px 3px 3px #c7b2b2;
+    border-radius: 25px;
+    padding: 1.5em;
+    font-weight: bold;
+    font-size: 120%;
+    width: 180px;
+    text-decoration: none;
+    overflow: hidden;
+    display: inline;
+    color: #cc8a33;
+    
+}
+nav > ul {
+    list-style-type: none;
+ }
+
+ nav a{
+    transition: color 3s ease-in;
+
+ }
+nav a:link {
+    color: #611010c9;
+}
+
+nav a:visited {
+    color: #676b67;
+}
+
+nav a:hover {
+    color: #887f09a1;
+}
+
+
+nav a {
+    text-decoration: none;
+}
+
+main {
+    padding: 5px;
+}
+
+h2 {
+    background-color: rgba(199, 217, 219, 0.8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: rgb(5, 3, 0);
+    padding: 1em;
+    box-shadow: 3px 3px 3px #333;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: square;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid rgb(117, 96, 117);
+    padding: 10px;
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+form{
+    display: flex;
+    flex-flow: column nowrap;
+}
+input,textarea{
+    margin-bottom: .5em;
+
+
+}
+input{
+    padding: .5em;
+}
+
+@media screen and (max-width:780px) {
+    #wrapper{
+        width: 100%;
+    }
+    main { grid-area: main; }
+    footer { grid-area: footer; }
+    h1{
+        height: fit-content;
+        min-height: 60px;
+    }
+    .hero {
+        flex-direction: column;
+    }
+
+    nav,
+    #homehero {
+        width: 100%;
+    }
+}
+
+
+
+/* 
+@media screen and (max-width:540px) {
+
+    nav {
+    display: flex;
+    flex-direction: column;
+    }
+} */
+/* @media screen and (max-width:1280px) {
+
+    nav {
+    display: flex;
+    flex-direction: column;
+    }
+} */
+
+.btn {
+    &:hover + .boxes {
+        & > .boxes--rotDegrees {
+            transform: rotate(0deg);
+        }
+        & > .boxes--rotTurns {
+            transform: rotate(0turn);
+        }
+    }
+}
+
+.boxes {
+    &--rotDegrees {
+        transform: rotate(-360deg);
+        transition: transform 500ms ease-in-out;
+    }
+    &--rotTurns {
+        background: pink;
+        transform: rotate(-1turn);
+        transition: transform 500ms ease-in-out;
+    }
+}
